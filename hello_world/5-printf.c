@@ -3,7 +3,7 @@
  * main - Prints with proper grammar, but
  *               the outcome is a piece of art,
  *
- * return: always 0.
+ * return - Always 0.
  */
 int main(void)
 {

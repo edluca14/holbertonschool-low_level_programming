@@ -9,9 +9,9 @@ int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z' && alphabet != 'q' && alphabet != 'e';)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-
+		if (alphabet != 'e' && alphabet != 'q')
 		putchar(alphabet);
 	}
 

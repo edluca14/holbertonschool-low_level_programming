@@ -2,7 +2,7 @@
 /**
  * main - Prints _putchar, followed by a new line
  *
- * Prints: Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 

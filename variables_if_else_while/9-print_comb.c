@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints all the single digit numbers of base 10 starting from 0, follo
- * wed by a new line.
+ * main - Prints all possible combinations of single-digit numbers
  *
  * Return: Always 0 (Success)
  *
@@ -14,7 +13,6 @@ int main(void)
 	{
 		putchar(n + '0');
 		{
-			continue;
 			putchar(',');
 			putchar(' ');
 		}

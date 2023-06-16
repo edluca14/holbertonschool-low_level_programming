@@ -3,19 +3,18 @@
  * main - Prints all the single digit numbers of base 10 starting from 0, follo
  * wed by a new line.
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
 {
-	char numbers;
+	char n;
 
-	for (numbers = 0; numbers <= 9; numbers++)
+	n = '0';
+
+	if (n <= '9')
 	{
-		putchar(numbers);
-	}
-	{
-		putchar('\n');
+		putchar(n++);
 	}
 
 	return (0);

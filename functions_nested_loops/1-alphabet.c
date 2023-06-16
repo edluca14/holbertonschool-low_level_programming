@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *
  * print_alphabet - Writes a function that prints the alphabet,
  * in lowercase, followed by a new lines
- *
  */
+
 void print_alphabet(void)
 {
 	char abc;

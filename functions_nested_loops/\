@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * int print_sign(int n) - prints the sign of a number then returns 1 and print
+ * s + if n grater than zero, returns 0 and prints 0 if is zero and returns -1 
+ * and prints - if n is less than zero.
+ *
+ */
+
+int print_sign(int n)
+{
+	if (n > 48)
+	{
+		return (1);
+		_putchar (43);
+	}
+	else if (n = 0)
+	{
+		return (0);
+		_putchar (48);
+	}
+	else
+	{
+		return (-1);
+		_putchar (
+	}
+}

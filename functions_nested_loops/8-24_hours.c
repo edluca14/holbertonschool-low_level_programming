@@ -8,15 +8,16 @@ void jack_bauer(void)
 {
 	char horas, minutos;
 
-	for (horas = 0; horas < 23 ; horas++)
+	for (horas = 0; horas <= 23 ; horas++)
 	{
-		for (minutos = 0; minutos < 59; minutos++)
+		for (minutos = 0; minutos <= 59; minutos++)
 		{
 			_putchar((horas / 10) + '0');
 			_putchar((horas % 10) + '0');
 			_putchar(':');
 			_putchar((minutos / 10) + '0');
 			_putchar((minutos % 10) + '0');
+			_putchar('\n');
 		}
 	}
 }

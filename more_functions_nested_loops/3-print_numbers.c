@@ -2,8 +2,6 @@
 /**
  * print_numbers - prints numbers from 0 to 9.
  *
- * @n: variable with the numbers.
- *
  */
 void print_numbers(void)
 {
@@ -11,7 +9,7 @@ void print_numbers(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		_putchar ((n % 10) + '0');
+		_putchar (n + '0');
 	}
 		_putchar ('\n');
 }

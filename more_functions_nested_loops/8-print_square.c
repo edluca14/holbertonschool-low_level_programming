@@ -13,12 +13,13 @@ void print_square(int size)
 	{
 		for (alto = 0; alto < size; alto++)
 		{
-			_putchar ('\n');
 
 		for (ancho = 0; ancho < size; ancho++)
 		{
 			_putchar ('#');
 		}
+
+		_putchar ('\n');
 		}
 	}
 	else

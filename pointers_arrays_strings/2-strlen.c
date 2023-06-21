@@ -8,7 +8,12 @@
  */
 int _strlen(char *s)
 {
-	int length = strlen(*s);
+	int contador = 0;
 
-	printf("%d", length);
+	while (contador != '\0')
+	{
+		contador++;
+		s++;
+	}
+	return (contador);
 }

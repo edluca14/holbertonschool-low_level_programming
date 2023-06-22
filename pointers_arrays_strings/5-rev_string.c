@@ -15,7 +15,7 @@ void rev_string(char *s)
 	for (i = 0; i < tamano / 2; i++)
 	{
 		auxiliar = s[i];
-		s[i] = s[tamano -1 -i];
-		s[tamano -i -1] = auxiliar;
+		s[i] = s[tamano - 1 - i];
+		s[tamano - i - 1] = auxiliar;
 	}
 }

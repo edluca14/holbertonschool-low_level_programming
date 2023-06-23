@@ -6,6 +6,8 @@
  *
  * @dest: parameter
  * @src: parameter
+ *
+ * Return: Always dest (Success)
  */
 char *_strcpy(char *dest, char *src)
 {

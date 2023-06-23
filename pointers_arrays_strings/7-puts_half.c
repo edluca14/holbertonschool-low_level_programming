@@ -7,7 +7,8 @@
  */
 void puts_half(char *str)
 {
-	int mitad, longitud = strlen(str);
+	int mitad;
+	int	longitud = strlen(str);
 
 	for (mitad = (longitud + 1) / 2; mitad < longitud; mitad++)
 		{

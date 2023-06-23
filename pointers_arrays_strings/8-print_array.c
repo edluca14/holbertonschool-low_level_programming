@@ -1,4 +1,4 @@
-#include "mail.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_array - prints n elements of an array of integers, followed by a new
@@ -10,7 +10,7 @@ void print_array(int *a, int n)
 {
 	int contador;
 
-	for (contador = 0; contador < n: contador++)
+	for (contador = 0; contador < n; contador++)
 	{
 		printf("%d", a[contador]);
 		if (contador == n - 1)
@@ -19,5 +19,5 @@ void print_array(int *a, int n)
 		}
 		printf(", ");
 	}
-	printf("\n"):
+	printf("\n");
 }

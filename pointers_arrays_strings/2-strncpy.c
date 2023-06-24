@@ -11,6 +11,9 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[irt] = src[irt];
 	}
-	dest[irt] = '\0';
+	if (n > irt)
+	{
+		dest[irt] = '\0';
+	}
 	return (dest);
 }

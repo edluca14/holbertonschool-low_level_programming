@@ -7,7 +7,7 @@
  * @src: parameter.
  * @n: parameter.
  *
- * return: Always dest (Success).
+ * Return: Always char pointer (Success).
  *
  */
 char *_strncat(char *dest, char *src, int n)

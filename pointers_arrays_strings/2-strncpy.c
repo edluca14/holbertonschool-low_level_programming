@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  *
  */
@@ -13,7 +14,12 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	if (n > irt)
 	{
+		dest[irt] = src[irt];
+	}
+	while (irt < n)
+	{
 		dest[irt] = '\0';
+		irt++;
 	}
 	return (dest);
 }

@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * _memset - Write a function that fills memory with a constant byte.
  *
  * @s: parameter
@@ -19,4 +18,4 @@ char *_memset(char *s, char b, unsigned int n)
 		i++;
 	}
 	return (s);
-}
+}	

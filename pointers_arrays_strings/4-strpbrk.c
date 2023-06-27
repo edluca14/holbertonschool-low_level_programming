@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdbool.h>
 /**
+ * _strpbrk - Write a function that searches a string for any of a set of
+ * bytes.
+ *
+ * @s: parameter.
+ * @accept: parameter.
+ *
+ * Return: pointer to the first character of s that belongs to accept or NULL
+ * if s and accept have no character in common.
  *
  */
 char *_strpbrk(char *s, char *accept)
@@ -25,5 +33,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		}
 	}
-	return (s + i);
+	return ('\0');
 }

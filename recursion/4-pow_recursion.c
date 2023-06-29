@@ -7,7 +7,7 @@
  * @x: parameter
  * @y: parameter
  *
- * return: x raised to the power of y.
+ * return: x raised to the power of y, -1 if y is lower than 0.
  */
 int _pow_recursion(int x, int y)
 {

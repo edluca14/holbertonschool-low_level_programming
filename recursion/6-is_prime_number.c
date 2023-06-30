@@ -4,9 +4,14 @@
  * is_prime_number - Write a function that returns 1 if the input integer
  * is a prime number, otherwise return 0.
  *
+ * is_prime_number2 - function.
+ *
+ * @i: parameter.
+ *
  * @n: parameter
  *
  * return: 1 if the input is a prime number, 0 otherwise.
+ *
  */
 int is_prime_number2(int n, int i)
 {

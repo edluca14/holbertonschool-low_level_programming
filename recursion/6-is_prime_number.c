@@ -7,7 +7,7 @@
  * @n: parameter
  * @i: parameter
  *
- * return: 1 if the input is a prime number, 0 otherwise.
+ * Return: 1 if the input is a prime number, 0 otherwise.
  *
  */
 int is_prime_number2(int n, int i)
@@ -32,7 +32,7 @@ int is_prime_number2(int n, int i)
  *
  * @n: parmeter.
  *
- * return: 1 if the input is a prime number, 0 otherwise.
+ * Return: 1 if the input is a prime number, 0 otherwise.
  *
  */
 int is_prime_number(int n)

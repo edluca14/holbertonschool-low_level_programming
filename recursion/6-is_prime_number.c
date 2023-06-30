@@ -31,7 +31,7 @@ int is_prime_number2(int n, int i)
  * prime number, otherwise return 0.
  *
  * @n: parmeter.
- * 
+ *
  * return: 1 if the input is a prime number, 0 otherwise.
  *
  */

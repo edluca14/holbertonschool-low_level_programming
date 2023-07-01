@@ -1,26 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * _strchr - write a function that locates a character in a string.
+ * _strlen - returns the length of a string.
  *
  * @s: parameter.
- * @c: parameter.
  *
- * Return: the pointer to the first occurence of c in the string, NULL
- * otherwise.
- *
+ * Return: the number of increases of contador until *s hits 0
  */
-char *_strchr(char *s, char c)
+int _strlen(char *s)
 {
-	int count;
+	int contador = 0;
 
-	for (count = 0; s[count] != c && s[count] != '\0'; count++)
+	while (*s != 0)
 	{
+		contador++;
+		s++;
 	}
-
-	if (s[count] == c)
-	{
-		return (s + count);
-	}
-
-	return ('\0');
+	return (contador);
 }

@@ -1,3 +1,1 @@
-ar -rcs liball.a 
-gcc -c *.c -o *.o
-
+ar -rcs liball.a

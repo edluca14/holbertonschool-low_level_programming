@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *
+ * main - Write a program that adds positive numbers.
+ * @argc: parameter
+ * @argv: parameter
+ * Return: 0 (Success)
  */
 int main(int argc, char *argv[])
 {

@@ -4,6 +4,7 @@
  * main - Write a program that prints the number of arguments passed into it.
  *
  * @argc: parameter
+ * @argv: parameter
  *
  * Return: 0 (Succeess)
  */

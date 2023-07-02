@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
 	int i;
 	int number;
 	int sum = 0;
+	char *ptr = '\0';
 
 	if (argc <= 2)
 	{
@@ -17,7 +18,12 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		number = atoi(argv[i]);
+		number = strtol(argv[i], &ptr, 10);
+		if (*ptr != '\0')
+		{
+			printf("Error\n");
+			return (1);
+		}
 		sum += number;
 	}
 	printf("%d\n", sum);

@@ -5,7 +5,7 @@
  *
  * Return: 0 (Successful)
  */
-int main()
+int main(void)
 {
 	long int n = 612852475143;
 	int i;
